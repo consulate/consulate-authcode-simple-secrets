@@ -1,0 +1,30 @@
+{
+  "name": "consulate-authcode-simple-secrets",
+  "version": "0.1.0",
+  "description": "simple-secrets authcode plugin for consulate",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/consulate/consulate-authcode-simple-secrets.git"
+  },
+  "keywords": [
+    "simple",
+    "secrets",
+    "consulate"
+  ],
+  "author": "Cameron Bytheway <cameron@theflokk.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "simple-secrets": "~1.0.0",
+    "simple-debug": "~1.1.0",
+    "bitfield": "CamShaft/bitfield"
+  },
+  "devDependencies": {
+    "should": "~1.2.2",
+    "mocha": "~1.11.0"
+  }
+}
