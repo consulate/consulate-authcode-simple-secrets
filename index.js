@@ -44,7 +44,7 @@ module.exports = function(options, db) {
         var code = sender.pack({
           c: client.id,
           u: user.id,
-          s: pack(ares.scope, scopes),
+          s: pack(ares.scope || client.scope, scopes),
           r: redirectURI
         });
         debug('packed code', client, redirectURI, user, ares, code);
