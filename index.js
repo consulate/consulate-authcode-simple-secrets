@@ -24,7 +24,7 @@ module.exports = function(options, db) {
   function register(app, save) {
 
     // Save the `scopes` callback for compression
-    var getScopes = app.callback('scopes');
+    var getScopes = app.callback('getScopes');
 
     // Allow the consumer to map scopes to a compressed enum value
     var pack = options.packScope || bitfield.pack
