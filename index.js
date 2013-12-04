@@ -60,7 +60,7 @@ module.exports = function(options, db) {
     });
 
     // Register getting an auth code
-    app.authorizationCode(function(code, done) {
+    app.getAuthorizationCode(function(code, done) {
       // Check that this code has not been used
       debug('validating code', code)
       db.validate(code, function(err, isValid) {
