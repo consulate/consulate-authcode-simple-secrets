@@ -21,7 +21,7 @@
   "dependencies": {
     "simple-secrets": "~1.0.0",
     "simple-debug": "~1.1.0",
-    "bitfield": "CamShaft/bitfield"
+    "bitfield": "camshaft/bitfield"
   },
   "devDependencies": {
     "should": "~1.2.2",
