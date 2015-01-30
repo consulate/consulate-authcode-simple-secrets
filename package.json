@@ -1,6 +1,6 @@
 {
   "name": "consulate-authcode-simple-secrets",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "simple-secrets authcode plugin for consulate",
   "main": "index.js",
   "scripts": {
